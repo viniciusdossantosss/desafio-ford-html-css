@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
 <body>
     <header>
@@ -19,23 +20,34 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <img src="img/xls 2.2 diesel.jpg" alt="Ford xls vermelha">
-        <p>Sobre Você</p>
-        <input type="text" placeholder="NOME*">
-        <input type="text" placeholder="E-MAIL*">
-        <input type="text" placeholder="CPF*">
-        <input type="text" placeholder="SOBRENOME*">
-        <input type="text" placeholder="TELEFONE*">
-        <select name="pronome-tratamento" id="pronome">
-            <option disabled selected hidden>Como gostaria de ser chamado</option>
-            <option value="Sr.">Sr. (Senhor)</option>
-            <option value="Sra.">Sra. (Senhora)</option>
-            <option value="Srta.">Srta. (Senhorita)</option>
-            <option value="Dr.">Dr. (Doutor)</option>
-            <option value="Dra.">Dra. (Doutora)</option>
-        </select>
-        <button onclick="cadastrar()">Enviar</button>
+    <main class="contatoPagina">
+        <div class="contato-imagem">
+            <img src="img/xls 2.2 diesel.jpg" alt="Ford xls vermelha">
+        </div>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <!-- Alterar os placeholders -->
+                <h5>Sobre Você</h5>
+                <div class="inputGrupo"><input type="text" placeholder="NOME*"></div>
+                <div class="inputGrupo"><input type="text" placeholder="E-MAIL*"></div>
+                <div class="inputGrupo"><input type="text" placeholder="SOBRENOME*"></div>
+                <div class="inputGrupo"><input type="text" placeholder="TELEFONE*"></div>
+                <div class="inputGrupo">
+                    <select name="pronome-tratamento" id="pronome">
+                        <option disabled selected hidden>Tipo de Contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="Srta.">Solicitação</option>
+                    </select>
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Sua mensagem" rows="2"></textarea>
+                </div>
+            </form>
+        </section>
+        <button type="submit" onclick="cadastrar()" class="submit-botao">
+            <span>Enviar Mensagem</span>
+        </button>
     </main>
     <footer>
         <div class="redes-sociais">
