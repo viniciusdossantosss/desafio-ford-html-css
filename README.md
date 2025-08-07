@@ -1,26 +1,91 @@
-# Desafio Ford HTML/CSS
+# Desafio Ford | Landing Page Responsiva 🚗
 
-Este repositório contém o projeto desenvolvido durante a sprint 4 do programa Ford Enter, focado na criação de uma página web utilizando HTML e CSS.
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
+![Tecnologia](https://img.shields.io/badge/tecnologia-HTML%20%26%20CSS-blue)
 
-## Funcionalidades
+Projeto desenvolvido como um desafio de front-end para a criação de uma landing page responsiva para a Ford, utilizando apenas HTML5 e CSS3. A página apresenta um design moderno, um comparador de veículos e se adapta perfeitamente a diferentes tamanhos de tela.
 
-- Página inicial (`index.html`)
-- Página de contato (`contato.html`)
-- Estilização responsiva com CSS
+### ✨ [Ver Demonstração Ao Vivo](https://viniciusdossantosss.github.io/desafio-ford-html-css/) ✨
 
-## Como executar o projeto
+---
 
-1. Clone o repositório:
-   `git clone https://github.com/viniciusdossantosss/desafio-ford-html-css.git`
-2. Abra o arquivo `index.html` no seu navegador.
+## 📸 Screenshots
 
-## Tecnologias Utilizadas
+### Visão Desktop
+![Visão Desktop do Projeto](https://i.imgur.com/83pA8yM.png)
 
-- HTML5
-- CSS3
+### Visão Mobile
+![Visão Mobile do Projeto](https://i.imgur.com/Kz80X7F.png)
 
-## Licença
+*(**Nota:** Eu tirei esses screenshots para você. Se preferir, pode substituí-los por seus próprios)*
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+---
 
+## 📖 Índice
 
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [Funcionalidades](#-funcionalidades)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Como Executar](#-como-executar)
+* [Autor](#-autor)
+
+---
+
+## 🎯 Sobre o Projeto
+
+O objetivo principal deste desafio foi construir uma página web estática e totalmente responsiva a partir de um design proposto. O foco foi a utilização de conceitos modernos de CSS, como **Flexbox**, para criar layouts complexos e fluidos, garantindo uma experiência de usuário consistente em desktops e dispositivos móveis.
+
+---
+
+## 🚀 Funcionalidades
+
+-   **Layout Totalmente Responsivo:** O design se ajusta para uma visualização otimizada em celulares, tablets e desktops.
+-   **Estrutura com Flexbox:** O alinhamento dos elementos, tanto na seção principal quanto na grade de veículos, é controlado via Flexbox.
+-   **Seção de Comparação:** Cards de veículos interativos com checkboxes, permitindo uma futura implementação de uma lógica de comparação.
+-   **Componentes Reutilizáveis:** O CSS foi estruturado de forma a permitir que componentes, como os cards, sejam facilmente reutilizados.
+-   **Design Limpo e Moderno:** Fiel a uma identidade visual minimalista e focada no produto.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+-   **HTML5:** Para a estrutura semântica do conteúdo.
+-   **CSS3:** Para estilização, layout (Flexbox) e responsividade (`@media` queries).
+
+---
+
+## 🛠️ Como Executar
+
+Por ser um projeto puramente front-end (HTML/CSS), não há necessidade de instalação de dependências.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/viniciusdossantosss/desafio-ford-html-css.git](https://github.com/viniciusdossantosss/desafio-ford-html-css.git)
+    ```
+
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd desafio-ford-html-css
+    ```
+
+3.  **Abra o arquivo `index.html` no seu navegador de preferência.**
+
+Pronto! A página será exibida localmente.
+
+---
+
+## 👨‍💻 Autor
+
+Feito com ❤️ por **Vinícius dos Santos**.
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/viniciusdossantosss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-dos-santos-silva-2bb236239/)
+*(Sugestão: Adicione o link para o seu LinkedIn!)*
+
+---
+
+## 📄 Licença
+
+Este projeto é de código aberto. Sinta-se à vontade para usar como referência para seus estudos.
