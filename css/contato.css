@@ -48,5 +48,60 @@
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 0.95rem;
-    background-color: ;
+    background-color: #F9F9F9;
+    transition: all 0.3 ease;
+}
+
+.inputGrupo input:focus,
+.inputGrupo select:focus,
+.inputGrupo textarea:focus {
+    border-color: #00274C;
+    outline: none;
+    background-color: #FFF;
+    box-shadow: 0 0 0 2px rgba(0, 39, 76, 0.1);
+}
+
+.inputGrupo select {
+    appearance: none;
+    color: #555;
+}
+
+.inputGrupo textarea {
+    resize: vertical;
+    max-height: 30px;
+}
+
+.submit-botao {
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-botao:hover {
+    background-color: #00274C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .contatoPagina{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .formularioContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
 }
