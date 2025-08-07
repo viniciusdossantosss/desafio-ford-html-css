@@ -5,8 +5,6 @@
 
 Projeto desenvolvido como um desafio de front-end para a criação de uma landing page responsiva para a Ford, utilizando apenas HTML5 e CSS3. A página apresenta um design moderno, um comparador de veículos e se adapta perfeitamente a diferentes tamanhos de tela.
 
-### ✨ [Ver Demonstração Ao Vivo](https://viniciusdossantosss.github.io/desafio-ford-html-css/) ✨
-
 ---
 
 ## 📖 Índice
@@ -66,11 +64,7 @@ Pronto! A página será exibida localmente.
 
 ## 👨‍💻 Autor
 
-Feito com ❤️ por **Vinícius dos Santos**.
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/viniciusdossantosss)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-dos-santos-silva-2bb236239/)
-*(Sugestão: Adicione o link para o seu LinkedIn!)*
+Feito por **Vinícius dos Santos**.
 
 ---
 
