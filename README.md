@@ -9,18 +9,6 @@ Projeto desenvolvido como um desafio de front-end para a criação de uma landin
 
 ---
 
-## 📸 Screenshots
-
-### Visão Desktop
-![Visão Desktop do Projeto](https://i.imgur.com/83pA8yM.png)
-
-### Visão Mobile
-![Visão Mobile do Projeto](https://i.imgur.com/Kz80X7F.png)
-
-*(**Nota:** Eu tirei esses screenshots para você. Se preferir, pode substituí-los por seus próprios)*
-
----
-
 ## 📖 Índice
 
 * [Sobre o Projeto](#-sobre-o-projeto)
