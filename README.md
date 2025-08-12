@@ -60,6 +60,10 @@ Por ser um projeto puramente front-end (HTML/CSS), não há necessidade de insta
 
 Pronto! A página será exibida localmente.
 
+Ou 
+
+**Abrir o link:** https://desafio-ford-html-css.vercel.app/
+
 ---
 
 ## 👨‍💻 Autor
